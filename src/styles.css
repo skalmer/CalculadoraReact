@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-flow: column;
+}
+
+.row {
+  display: flex;
+}
+.row-zero {
+  display: flex;
+  margin: 0px 180px;
+}
+#igual {
+  background-color: rgb(30, 173, 37);
+  font-size: 2rem;
+  padding: 2rem;
+}
+#reset {
+  background-color: rgb(172, 153, 48);
+  font-size: 2rem;
+}
+button,
+input {
+  flex: 1;
+  padding: 2rem;
+  background-color: darkslategray;
+  color: white;
+  border: 1px solid;
+  outline: none;
+  transition: all 0.5s;
+  font-size: 1rem;
+}
+
+input {
+  background-color: rgba(58, 173, 164, 0.671);
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.calculate {
+  flex: 1;
+  justify-content: center;
+}
